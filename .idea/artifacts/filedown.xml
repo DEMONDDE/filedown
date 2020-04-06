@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="filedown">
+    <output-path>$PROJECT_DIR$/out/artifacts/filedown</output-path>
+    <root id="archive" name="filedown.war">
+      <element id="artifact" artifact-name="filedown:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.9.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.1.10.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="filedown" />
+          <element id="library" level="module" name="JUnit5.4" module-name="filedown" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
