@@ -21,6 +21,7 @@ import java.util.List;
 
 @WebServlet("/fileUploadServlet")
 public class FileUploadServlet extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         Service service = new ServiceImpl();
@@ -53,10 +54,10 @@ public class FileUploadServlet extends HttpServlet {
         ServletFileUpload upload = new ServletFileUpload(factory);
         //解决上传文件名的中文乱码
         upload.setHeaderEncoding("UTF-8");
-        //设置上传单个文件的大小的最大值，目前是设置为1024*1024字节，也就是1MB
-        upload.setFileSizeMax(1024 * 1024 * 10);
-        //设置上传文件总量的最大值，最大值=同时上传的多个文件的大小的最大值的和，目前设置为10MB
-        upload.setSizeMax(1024 * 1024 * 30);
+        //设置上传单个文件的大小的最大值，目前是设置为1024*1024字节，也就是600MB
+        upload.setFileSizeMax(1024 * 1024 * 600);
+        //设置上传文件总量的最大值，最大值=同时上传的多个文件的大小的最大值的和，目前设置为1000MB
+        upload.setSizeMax(1024 * 1024 * 1000);
         try {
             List<FileItem> fileItems = upload.parseRequest(request);
             for (FileItem fileItem : fileItems){

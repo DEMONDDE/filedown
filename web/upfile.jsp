@@ -19,7 +19,7 @@
             }
             var formData = new FormData();//这里需要实例化一个FormData来进行文件上传
             formData.append("myfile",document.getElementById("file1").files[0]);
-            $.ajax({url: "fileUploadServlet",
+            $.ajax({url: "ImgServlet",
                 type: 'POST',
                 cache: false,
                 processData: false,
@@ -39,7 +39,7 @@
     </script>
 </head>
 <body>
-
+    <h1>上传文件不要超过600MB</h1><br>
     请选择文件:<input id="file1" type="file" name="uploadfile" multiple="multiple">
     <input type="button" value="上传" onclick="check()"><br>
 

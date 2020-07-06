@@ -56,5 +56,7 @@ public class FiledownServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doPost(request,response);
+
+        String[] option = request.getParameterValues("option");
     }
 }

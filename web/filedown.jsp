@@ -17,5 +17,6 @@
 <c:forEach items="${list}" var="name">
     <a href="${pageContext.request.contextPath}/filedownServlet?name=${name}">${name}</a><br>
 </c:forEach>
+<h1>${pageContext.request.contextPath}</h1>
 </body>
 </html>

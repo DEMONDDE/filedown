@@ -39,7 +39,7 @@
     </script>
 </head>
 <body>
-
+    <h1>上传文件不要超过600MB</h1><br>
     请选择文件:<input id="file1" type="file" name="uploadfile" multiple="multiple">
     <input type="button" value="上传" onclick="check()"><br>
 
