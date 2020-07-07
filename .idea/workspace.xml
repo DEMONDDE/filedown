@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8140399d-1930-42aa-a572-a633e7fb73b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/filedown/filedown.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/filedown/filedown.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/WEB-INF/classes/cn/web/FileUploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/WEB-INF/classes/cn/web/FileUploadServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/filedown.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/filedown.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/upfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/filedown_war_exploded/upfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/filedown/META-INF/filedown.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/filedown/cn/web/FileUploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/filedown/cn/web/FileUploadServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/web/FileUploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/web/FileUploadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/web/FiledownServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/web/FiledownServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/filedown.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/filedown.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/upfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/upfile.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -292,6 +283,7 @@
       <workItem from="1592608606329" duration="185000" />
       <workItem from="1592623344728" duration="638000" />
       <workItem from="1592727397157" duration="163000" />
+      <workItem from="1594079937754" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="功能已完成">
       <created>1586178387738</created>
@@ -300,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586178387738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试冲突">
+      <created>1594079982479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594079982480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试冲突1">
+      <created>1594080104899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594080104899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +314,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="功能已完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能已完成" />
+    <MESSAGE value="测试冲突" />
+    <MESSAGE value="测试冲突1" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试冲突1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585984466027">
@@ -323,10 +331,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586170846108" />
-    <state x="312" y="5" key="CommitChangelistDialog2" timestamp="1586178384922">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1594080103892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="312" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586178384922" />
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594080103891" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586178343682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -399,10 +407,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586178304337" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586178463118">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594080242552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586178463118" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594080242552" />
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586170857757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
