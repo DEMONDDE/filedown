@@ -44,7 +44,7 @@
     <input type="button" value="上传" onclick="check()"><br>
 
 <a href="${pageContext.request.contextPath}/index.html"><button>返回</button></a>
-<a></a>
+
 
 </body>
 </html>
