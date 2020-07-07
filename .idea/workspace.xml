@@ -331,10 +331,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586170846108" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1594080103892">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1594080566938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594080103891" />
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594080566938" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586178343682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -403,14 +403,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1055" height="249" key="GridCell.Tab.5.right/0.0.1536.824@0.0.1536.824" timestamp="1586070182244" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1594080728720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594080728720" />
+    <state x="403" y="172" key="MultipleFileMergeDialog" timestamp="1594080728726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="172" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1594080728726" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1586178304337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586178304337" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594080242552">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594080743249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594080242552" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594080743249" />
     <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586170857757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
