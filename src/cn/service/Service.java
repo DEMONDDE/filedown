@@ -9,4 +9,7 @@ public interface Service {
 
     //往数据库添加数据如果重名返回true
     public Boolean addFile(String name);
+    //test
+    public void aa();
+
 }
